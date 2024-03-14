@@ -1,0 +1,71 @@
+/* Cart.css */
+
+.mainCart {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+    justify-content: space-evenly;
+  }
+  
+  .innerCart {
+    display: flex;
+    align-items: center;
+    width: 70%;
+  }
+  
+  .img {
+    margin-right: 20px;
+  }
+  
+  .img img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .buttons button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .buttons button:focus {
+    outline: none;
+  }
+  
+  .totalSum {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .totalSum p{
+    margin-right: 10%;
+  }
+  
+  .clear {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .clear button {
+    background-color: #c1beff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .clear button:hover {
+    background-color: #5550ba;
+  }
+  
